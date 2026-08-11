@@ -17,15 +17,16 @@ The 1-minute empty grace period prevents a brief disconnect/reconnect from trigg
 ## Requirements
 
 - Velocity **4.1.0+** (requires **Java 25**)
+- Maven 3.8+
 - No other dependencies
 
-## Building
+## Building with Maven
 
 ```bash
-./gradlew build
+mvn clean package
 ```
 
-The jar will be produced at `build/libs/ProxyAutoEnd-1.1.0.jar`.
+The jar will be produced at `target/ProxyAutoEnd-1.1.0.jar`.
 
 ## Installation
 
